@@ -1,0 +1,6 @@
+.sl-add {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  z-index: 200;
+}

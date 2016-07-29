@@ -1,0 +1,3 @@
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right" *ngIf="menuItems.length">
+  <li *ngFor="let item of menuItems" class="mdl-menu__item" (click)="item.action">{{item.label}}</li>
+</ul>

@@ -1,0 +1,14 @@
+{
+  "name": "workshop-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js",
+    "watch": "nodemon ./app.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}

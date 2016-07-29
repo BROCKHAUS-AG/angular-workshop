@@ -1,0 +1,23 @@
+<div class="demo-card-wide mdl-card mdl-shadow--2dp" mdl>
+  <div class="mdl-card__supporting-text">
+    <form action="#">
+      <div>
+        <label>Anzahl: {{model.count}}</label>
+        <!-- TODO-5: Model binden (https://angular.io/docs/ts/latest/guide/forms.html) -->
+        <input class="mdl-slider mdl-js-slider" type="range" min="1" tabindex="1">
+      </div>
+      <div>
+        <!-- TODO-5: Model binden -->
+        <label>Produkt</label>
+        <select>
+          <option value=""></option>
+        </select>
+      </div>
+    </form>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="createItem()">
+      Eintrag anlegen
+    </button>
+  </div>
+</div>

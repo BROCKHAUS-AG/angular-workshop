@@ -1,0 +1,42 @@
+<div mdl>
+  <menu [items]="menuItems"></menu>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
+      <!-- Top row, always visible -->
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span id="sl-title" class="mdl-layout-title">
+          {{title.title}}
+        </span>
+        <div class="mdl-layout-spacer"></div>
+        <!-- Right aligned menu below button -->
+        <menu-buttons [items]="menuItems"></menu-buttons>
+      </div>
+      <!-- Bottom row, not visible on scroll -->
+      <div id="sl-total-price" class="mdl-layout__header-row">
+        <p>{{title.subTitle}}</p>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Shoppinglist</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" routerLink="/shopping-list">Your Shoppinglists</a>
+        <a class="mdl-navigation__link" href="#">Favorites</a>
+        <a class="mdl-navigation__link" href="#">About</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Routed views go here -->
+        <router-outlet></router-outlet>
+      </div>
+      <!-- page-content -->
+    </main>
+    <footer class="sl-footer mdl-mini-footer">
+      <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">&copy; BROCKHAUS AG 2016 - JavaScript Workshop</div>
+      </div>
+    </footer>
+  </div>
+  <!-- mdl-layout -->
+</div>

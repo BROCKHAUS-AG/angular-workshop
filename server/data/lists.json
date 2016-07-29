@@ -1,0 +1,56 @@
+[{
+  "id": "A7F5ED73-8E15-48EB-ABFD-C0F0C2543685",
+  "name": "Shopping list 1",
+  "items": [
+    {
+      "id": "5B407A72-6A4A-4BDE-928E-7BF023E9D5D3",
+      "productId": "0C1524F8-83F5-404E-9AA9-81DB151D0110",
+      "count": 5
+    },
+    {
+      "id": "BAE2D9B3-9035-4DC3-9626-F1045035E8BE",
+      "productId": "B02241A6-ACBB-4767-9A84-2151E3CB417E",
+      "count": 20
+    },
+    {
+      "id": "6C8F71C1-A9BD-420B-9C2B-98C28DA4905C",
+      "productId": "FDD57BB6-DD5A-4263-AFB2-DD1BEBF8522F",
+      "count": 2
+    },
+    {
+      "id": "316853AC-5477-4E24-A6E1-23AC0814CB10",
+      "productId": "471EDAF2-16AD-4A7F-805E-1DB75EE9762D",
+      "count": 2
+    },
+    {
+      "id": "6ED70023-0D08-4647-A37B-A248F1C3E94F",
+      "productId": "DEE220E8-D81B-4B48-950E-6F9B52DA5D49",
+      "count": 1
+    },
+    {
+      "id": "19CE63EB-BEC3-4E8C-8447-5BA465803809",
+      "productId": "41BF00B6-F7FF-44B8-9D6F-343647DA9CCA",
+      "count": 1
+    },
+    {
+      "id": "7B99D6EF-A2E7-4614-9152-72DA676B22B2",
+      "productId": "037BEB0B-3667-4B90-8DAC-2B05327F9664",
+      "count": 3
+    },
+    {
+      "id": "3338BABF-0B90-4A10-9004-0E0EF4F85EF4",
+      "productId": "86CA2D66-1728-4172-A872-A704A7F13789",
+      "count": 2
+    },
+    {
+      "id": "07144024-0389-4675-8128-E67CD3333175",
+      "productId": "CC01996B-D790-41C5-8F43-86C337BA03AF",
+      "count": 10
+    },
+    {
+      "id": "8E65CD94-8119-4B00-ADFF-49A0B636F6B4",
+      "productId": "DEE220E8-D81B-4B48-950E-6F9B52DA5D49",
+      "count": 2
+    }
+  ]
+}]

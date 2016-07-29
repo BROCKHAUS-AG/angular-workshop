@@ -1,0 +1,15 @@
+.mdl-layout__container {
+  overflow: hidden
+}
+
+.hidden {
+  display: none;
+}
+
+.sl-footer {
+  padding-top: 0;
+}
+
+.sl-footer .mdl-logo {
+  margin-bottom: 0;
+}

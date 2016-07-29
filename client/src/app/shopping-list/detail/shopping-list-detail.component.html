@@ -1,0 +1,36 @@
+<div class="mdl-grid">
+  <div id="sl-view" class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+
+    <ul class="mdl-list">
+      <li class="sl-item mdl-list__item mdl-list__item--three-line" *ngFor="let item of shoppingList.items" mdl>
+        <span class="mdl-list__item-primary-content">
+          <!-- TODO-3: imageSrc festlegen -->
+          <img src="" class="material-icons mdl-list__item-avatar mdl-shadow--2dp" (click)="toggleEdit(item)">
+          <span [ngClass]="{bolder: item.isEditing}" (click)="toggleEdit(item)"><!-- TODO-3: Name --></span>
+          <span class="mdl-list__item-text-body">
+            <!-- TODO-3: Beschreibung --><br>
+            <!-- TODO-3: Einzelpreis --> / <!-- TODO-3: Anzahl --> / <!-- TODO-3: Gesamtpreis --><br>
+            <span *ngIf="item.isEditing">
+              <!-- TODO-3: attr.max an item.maxCount binden -->
+              <!-- TODO-3: ngModel an item.count binden -->
+              <input mdl class="mdl-slider mdl-js-slider" type="range" min="1">
+            </span>
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-action">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" htmlFor="shopping-list-item-{{item.id}}">
+            <input type="checkbox" id="shopping-list-item-{{item.id}}" class="mdl-checkbox__input" [(ngModel)]="item.isSelected" />
+          </label>
+        </span>
+      </li>
+    </ul>
+
+  </div>
+  <!-- mdl-cell -->
+</div>
+<!-- mdl-grid -->
+
+<!-- TODO-5: Mithilfe des Routers zur Hinzufügen Seite navigieren -->
+<button mdl class="sl-add mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-shadow--4dp mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>

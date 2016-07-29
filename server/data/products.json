@@ -1,0 +1,72 @@
+[
+  {
+    "id": "0C1524F8-83F5-404E-9AA9-81DB151D0110",
+    "name": "Krombacher Pils",
+    "price": 11.89,
+    "description": "5l Fass",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/51sE7eBn2sL.jpg"
+  },
+  {
+    "id": "B02241A6-ACBB-4767-9A84-2151E3CB417E",
+    "name": "Paulaner alkoholfrei",
+    "price": 0.97,
+    "description": "0,5l",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/31DacZvmjSL.jpg"
+  },
+  {
+    "id": "FDD57BB6-DD5A-4263-AFB2-DD1BEBF8522F",
+    "name": "Coca-Cola",
+    "price": 16.99,
+    "description": "12x1 Liter Mehrweg",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/719j3RNQPML._SX522_.jpg"
+  },
+  {
+    "id": "471EDAF2-16AD-4A7F-805E-1DB75EE9762D",
+    "name": "Grillholzkohle",
+    "price": 16.99,
+    "description": "10 kg Holzkohle (Buche)",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/71%2Bs9Mg6mRL._SX466_.jpg"
+  },
+  {
+    "id": "CC01996B-D790-41C5-8F43-86C337BA03AF",
+    "name": "Party-Set",
+    "price": 8.50,
+    "description": "100 Pappteller / Kunststoffmesser-, gabeln",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/61LzldFet%2BL._SX466_.jpg"
+  },
+  {
+    "id": "DEE220E8-D81B-4B48-950E-6F9B52DA5D49",
+    "name": "Krautsalat",
+    "price": 39.99,
+    "description": "5kg Eimer",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/71WqEuy6%2BQL._SX522_.jpg"
+  },
+  {
+    "id": "DCBD4965-2B16-4013-87FD-D56F62232BE0",
+    "name": "Hela Tomaten Ketchup",
+    "price": 14.94,
+    "description": "6er Pack (6 x 800 ml Tube)",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/41v2OE8pMdL.jpg"
+  },
+  {
+    "id": "41BF00B6-F7FF-44B8-9D6F-343647DA9CCA",
+    "name": "Bratwurst mittelgrob gebrüht",
+    "price": 105.09,
+    "description": "100 Stück Großpack = 12.000 g",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/41dIqqsZ87L.jpg"
+  },
+  {
+    "id": "037BEB0B-3667-4B90-8DAC-2B05327F9664",
+    "name": "Argentinische Rinderhueftsteaks",
+    "price": 26.29,
+    "description": "5 Stueck 1000 g",
+    "imageSrc": "https://images-eu.ssl-images-amazon.com/images/I/41S-UZD+ehL._AC_US160_.jpg"
+  },
+  {
+    "id": "86CA2D66-1728-4172-A872-A704A7F13789",
+    "name": "Paprika",
+    "price": 7.99,
+    "description": "rot (1 kg) - Bio",
+    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/11OnqKdZlvL.jpg"
+  }
+]

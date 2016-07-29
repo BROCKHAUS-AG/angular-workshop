@@ -1,0 +1,6 @@
+<button mdl class="mdl-button mdl-js-button mdl-button--icon" *ngFor="let button of buttons" title="{{button.label}}">
+  <i class="material-icons">{{button.icon}}</i>
+</button>
+<button mdl id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon" *ngIf="more.length">
+  <i class="material-icons">more_vert</i>
+</button>
